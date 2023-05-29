@@ -57,4 +57,71 @@ body {
     font-size: 14px;
   }
   
+  /* Cookie Agreement Styles */
+  
+  .cookie-agreement {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .cookie-agreement p {
+    margin: 0;
+  }
+  
+  .cookie-agreement button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Chatbot Styles */
+  
+  .chatbot-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-message {
+    margin-bottom: 10px;
+  }
+  
+  .chatbot-input input {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #ccc;
+  }
+  
+  .chatbot-input button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsiveness Styles */
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    .cookie-agreement {
+      font-size: 12px;
+    }
+  
+    .chatbot-container {
+      padding: 10px;
+    }
+  }
   

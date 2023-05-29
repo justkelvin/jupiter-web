@@ -4,51 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SyncVerse</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <!-- Your website header content goes here -->
-    <img src="images/logo.png" alt="Logo">
-    <nav>
-      <!-- Your navigation menu goes here -->
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="legal/terms-and-conditions.html">Terms and Conditions</a></li>
-        <li><a href="legal/privacy-policy.html">Privacy Policy</a></li>
-        <li><a href="legal/terms-of-service.html">Terms of Service</a></li>
+  <header class="bg-light py-3">
+    <nav class="container">
+      <a href="#" class="navbar-brand">SyncVerse</a>
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="legal/terms-and-conditions.html" class="nav-link">Terms and Conditions</a></li>
+        <li class="nav-item"><a href="legal/privacy-policy.html" class="nav-link">Privacy Policy</a></li>
+        <li class="nav-item"><a href="legal/terms-of-service.html" class="nav-link">Terms of Service</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <!-- Your main website content goes here -->
-    <h1>Welcome to Your Website</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet velit id eros feugiat, in feugiat eros sollicitudin.</p>
+  <main class="container py-5">
+    <h1 class="display-4">Welcome to Your Website</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet velit id eros feugiat, in feugiat eros sollicitudin.</p>
 
     <!-- Cookie Agreement -->
-    <div class="cookie-agreement">
-      <p>This website uses cookies. By continuing to use this site, you agree to our <a href="legal/privacy-policy.html">Privacy Policy</a>.</p>
-      <button>Agree</button>
+    <div class="cookie-agreement bg-light p-3 mb-4">
+      <p class="mb-0">This website uses cookies. By continuing to use this site, you agree to our <a href="legal/privacy-policy.html">Privacy Policy</a>.</p>
+      <button class="btn btn-primary mt-2">Agree</button>
     </div>
 
     <!-- Chatbot -->
-    <div class="chatbot-container">
-      <div class="chatbot-message">
+    <div class="chatbot-container bg-light p-3 mb-4">
+      <div class="chatbot-message mb-3">
         <p>Welcome! How can I assist you?</p>
       </div>
       <div class="chatbot-input">
-        <input type="text" placeholder="Type your message here...">
-        <button class="chatbot-submit">Send</button>
+        <input type="text" placeholder="Type your message here..." class="form-control">
+        <button class="btn btn-primary mt-2">Send</button>
       </div>
     </div>
   </main>
 
-  <footer>
-    <!-- Your website footer content goes here -->
-    <p>&copy; 2023 SyncVerse. All rights reserved.</p>
+  <footer class="bg-light py-3 text-center">
+    <p class="m-0">&copy; 2023 SyncVerse. All rights reserved.</p>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
